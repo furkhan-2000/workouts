@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Routine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #444;
+            text-align: center;
+        }
+
+        .workout-section {
+            width: 100%;
+            margin-bottom: 30px;
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .workout-title {
+            font-size: 20px;
+            color: #e74c3c;
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        .exercise-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .exercise-item {
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .effect {
+            font-size: 14px;
+            color: #888;
+        }
+
+        .exercise-item::before {
+            content: "•";
+            color: #e74c3c;
+            margin-right: 10px;
+        }
+
+        .cardio-section {
+            margin-top: 20px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            width: 100%;
+            box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .schedule {
+            font-size: 16px;
+            color: #444;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 22px;
+            }
+
+            .workout-title {
+                font-size: 18px;
+            }
+
+            .exercise-item {
+                font-size: 16px;
+            }
+
+            .effect {
+                font-size: 12px;
+            }
+
+            .schedule {
+                font-size: 14px;
+            }
+
+            .footer {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Workout Routine</h1>
+
+        <div class="workout-section">
+            <h2 class="workout-title">Chest Workout</h2>
+            <ul class="exercise-list">
+                <li class="exercise-item">Pushups
+                    <p class="effect">Effect: Strengthens chest, shoulders, and triceps, improves core stability.</p>
+                </li>
+                <li class="exercise-item">Incline Fly
+                    <p class="effect">Effect: Targets upper chest, improves muscle definition.</p>
+                </li>
+                <li class="exercise-item">Flat Dumbbell Press
+                    <p class="effect">Effect: Enhances chest strength, builds size and shape.</p>
+                </li>
+                <li class="exercise-item">Decline Rod Press
+                    <p class="effect">Effect: Focuses on lower chest, increases muscle mass.</p>
+                </li>
+                <li class="exercise-item">Lower Cross-over
+                    <p class="effect">Effect: Engages lower chest and adds muscle tone.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="workout-section cardio-section">
+            <h2 class="workout-title">Cardio Routine</h2>
+            <ul class="exercise-list">
+                <li class="exercise-item">Sides
+                    <p class="effect">Effect: Improves core strength and stability.</p>
+                </li>
+                <li class="exercise-item">Mountain Climbing
+                    <p class="effect">Effect: Full-body workout, enhances endurance and agility.</p>
+                </li>
+                <li class="exercise-item">Rope CrossFit
+                    <p class="effect">Effect: Burns calories, boosts stamina and coordination.</p>
+                </li>
+                <li class="exercise-item">Lying Cycling
+                    <p class="effect">Effect: Strengthens core, improves leg muscle endurance.</p>
+                </li>
+                <li class="exercise-item">Treadmill
+                    <p class="effect">Effect: Burns fat, increases cardiovascular health.</p>
+                </li>
+                <li class="exercise-item">Cycling
+                    <p class="effect">Effect: Boosts cardiovascular health, tones lower body.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="schedule">
+            This routine is scheduled for Wasim
+        </div>
+
+        <div class="footer">
+            Trainer: Furkhan
+        </div>
+    </div>
+</body>
+
+</html>
